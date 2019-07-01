@@ -1,0 +1,63 @@
+
+.nav-wrapper{
+	background-color: #A0A0A0FF;
+}
+
+
+#division{
+	color: white;
+	text-align: center;
+	background-color: #1e7b21;
+}
+
+.page-footer{
+	background-color: #A0A0A0FF;
+}
+#logo1{
+	margin-left: 20px;
+}
+
+#galeria{
+	border-top:  100px;
+	margin: 10px;
+
+}
+.mapa{
+	margin-left: 400px;
+	margin-top: 10px;
+}
+
+
+#contacto{
+	align-content: space-between;
+
+}
+.contactos{
+	background-color: #BABABAFF;
+	text-orientation:    white;
+}
+
+.grey-text text-lighten-3{
+	font-size: 5px;
+}
+.carousel carousel-slider{
+	margin-left: 3000px;
+	margin-right: 3000px;
+	margin-bottom: 1000px;
+	border-bottom: 1000px;
+	padding-bottom: 100000px;
+}
+.row{
+	padding-right: 50px;
+	padding-left: 20px;
+}
+
+var instance = M.Carousel.init({
+    fullWidth: true
+  });
+
+  // Or with jQuery
+
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
